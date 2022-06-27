@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import Topics from "./components/Topics";
+import GlobalStyle from "./styles/global";
+
 function App() {
   return (
     <>
-      <div>Ola</div>
+      <GlobalStyle />
+      <Header />
+      <Topics />
     </>
   );
 }
