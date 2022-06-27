@@ -33,15 +33,13 @@ export default function Topics() {
               <h3>Sobre mim</h3>
               <h4>André Luís</h4>
               <p>
-                <span>T</span>ext of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived
-                not only five centuries, but also the leap into electronic
-                typesetting, remaining essentially unchanged. It was popularised
-                in the 1960s with the release of Letraset sheets containing
-                Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
+                <span>T</span>écnico em Marketing, jogador profissional de
+                Pokemon Unite, tenho contato com esse mundo da tecnologia desde
+                jovem e sempre me interessei nessa area pois ela esta
+                relacionada a tudo atualmente, entrei na Kenzie para me conectar
+                com este mundo e ter a oportunidade de aprender e trabalhar em
+                cima dessas tecnlogias que estão cada vez mais presentes no
+                nosso dia a dia.
               </p>
             </div>
             <img src={AndreImage} alt="" />
