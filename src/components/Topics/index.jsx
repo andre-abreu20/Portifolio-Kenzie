@@ -35,11 +35,11 @@ export default function Topics() {
               <p>
                 <span>T</span>écnico em Marketing, jogador profissional de
                 Pokemon Unite, tenho contato com esse mundo da tecnologia desde
-                jovem e sempre me interessei nessa area pois ela esta
+                jovem e sempre me interessei nessa área pois ela esta
                 relacionada a tudo atualmente, entrei na Kenzie para me conectar
                 com este mundo e ter a oportunidade de aprender e trabalhar em
-                cima dessas tecnlogias que estão cada vez mais presentes no
-                nosso dia a dia.
+                cima dessas tecnologias que estão cada vez mais presentes no
+                nosso dia à dia.
               </p>
             </div>
             <img src={AndreImage} alt="" />
