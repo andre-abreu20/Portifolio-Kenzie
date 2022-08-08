@@ -21,6 +21,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font-family: Nunito;
 	vertical-align: baseline;
+	scroll-behavior:smooth;
 }
 :root{
 	--primary: #001b33;

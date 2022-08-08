@@ -6,7 +6,7 @@ export const Container = styled.header`
   position: fixed;
   z-index: 1;
   top: 0px;
-  background-color: var(--primary);
+  background-color: #001b33de;
   display: flex;
   flex-direction: column;
   padding-top: 15px;
@@ -25,11 +25,14 @@ export const Container = styled.header`
     font-size: 1.6rem;
     padding-bottom: 5px;
   }
-  div {
+  nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
     height: 50px;
+    a {
+      text-decoration: none;
+    }
   }
   .primaryButton {
     background: transparent;
@@ -40,9 +43,8 @@ export const Container = styled.header`
     transition: ease 0.2s;
     &:hover {
       color: #c5c5c5;
-    }
-    &:focus {
-      border-bottom: 5px solid #2e8fe5;
+      border-bottom: 10px solid #2e8fe5;
+      border-radius: 8px;
     }
   }
   @media (min-width: 767px) {
