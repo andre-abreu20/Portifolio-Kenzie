@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Topics from "./components/Topics";
 import GlobalStyle from "./styles/global";
@@ -8,6 +9,7 @@ function App() {
       <GlobalStyle />
       <Header />
       <Topics />
+      <Footer />
     </>
   );
 }
