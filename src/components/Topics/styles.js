@@ -3,10 +3,11 @@ import woodBackground from "../../assets/images/woodBackground.jpg";
 
 export const Container = styled.div`
   width: 100%;
-  height: auto;
   display: flex;
   justify-content: center;
-  margin-top: 300px;
+  height: 200vh;
+  margin-top: 200px;
+  margin-bottom: 200px;
 `;
 
 export const TopicsList = styled.ul`
@@ -18,6 +19,7 @@ export const TopicsList = styled.ul`
   max-width: 900px;
   justify-content: space-between;
   transition: all 1 ease-in-out;
+
   h3 {
     font-size: 1.6rem;
     color: #0085ff;
@@ -114,7 +116,6 @@ export const QualificationCard = styled.li`
     transition: 0.5s ease-in-out;
     transform: scale(1.1);
   }
-
   img {
     height: auto;
     width: 70vw;
@@ -126,7 +127,7 @@ export const QualificationCard = styled.li`
       font-size: 1rem;
     }
     .backwardBtn {
-      margin-left: -50px;
+      margin-left: -70px;
     }
   }
 `;
