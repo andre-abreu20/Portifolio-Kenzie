@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: auto;
   display: flex;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 300px;
 `;
 
 export const TopicsList = styled.ul`
@@ -36,8 +36,6 @@ export const AboutMeCard = styled.li`
   width: 80%;
   height: auto;
   padding: 15px;
-  margin-top: 100px;
-  margin-bottom: 300px;
   border: solid 2px rgba(255 255 255 / 24%);
   box-shadow: 2px -1px 20px 6px #616161;
   border-radius: 8px;
@@ -107,7 +105,6 @@ export const QualificationCard = styled.li`
   width: auto;
   height: auto;
   background-image: url(${woodBackground});
-  margin-bottom: 300px;
   border-radius: 8px;
   transition: 0.5s ease-in-out;
   div {
@@ -142,7 +139,6 @@ export const ProjectsCard = styled.li`
   max-width: 900px;
   height: auto;
   background-image: url(${woodBackground});
-  margin-bottom: 300px;
   border-radius: 8px;
   transition: 0.5s ease-in-out;
 

@@ -27,7 +27,7 @@ export default function Topics() {
   return (
     <>
       <Container>
-        <TopicsList>
+        <TopicsList id="1">
           <AboutMeCard>
             <div>
               <h3>Sobre mim</h3>
@@ -45,7 +45,7 @@ export default function Topics() {
             <img src={AndreImage} alt="" />
           </AboutMeCard>
           <h3 className="qualificationsTitle">Qualificações</h3>
-          <QualificationCard>
+          <QualificationCard id="2">
             <ReactSimplyCarousel
               activeSlideIndex={activeSlideIndex}
               onRequestChange={setActiveSlideIndex}
@@ -108,7 +108,7 @@ export default function Topics() {
             </ReactSimplyCarousel>
           </QualificationCard>
           <h3 className="qualificationsTitle">Projetos</h3>
-          <ProjectsCard>
+          <ProjectsCard id="3">
             <ReactSimplyCarousel
               activeSlideIndex={activeSlideIndex2}
               onRequestChange={setActiveSlideIndex2}
