@@ -12,16 +12,19 @@ export const StyledButton = styled.i`
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out 0s;
+
   &&:hover {
     background: white;
     color: #2e8fe5;
     transition: all 0.2s ease-in-out 0s;
   }
+
   &:focus {
     background: white;
     color: #2e8fe5;
     transition: all 0.2s ease-in-out 0s;
   }
+
   @media (min-width: 767px) {
     padding: 18px 30px;
   }
