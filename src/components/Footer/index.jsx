@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <Container id="4">
+    <Container id="contato">
       <DevInfo>
         <div>
           <a href="https://github.com/andre-abreu20">
