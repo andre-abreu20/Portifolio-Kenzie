@@ -21,6 +21,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font-family: Nunito;
 	vertical-align: baseline;
+	scroll-behavior:smooth;
 }
 :root{
 	--primary: #001b33;
@@ -35,7 +36,6 @@ time, mark, audio, video {
 	background-repeat:no-repeat;
     background-image: url(${mainBackground});
 	background-size:cover;
-	line-height: 1;
 	min-height:100vh;
 }
 article, aside, details, figcaption, figure, 
